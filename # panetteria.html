@@ -1,0 +1,55 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <title>Panetteria del Sorriso</title>
+    <style>
+        body { font-family: Arial, sans-serif; background: #fffbe7; margin: 0; }
+        header { background: #e2b07a; padding: 20px; text-align: center; }
+        h1 { margin: 0; }
+        nav { background: #f5e1c0; padding: 10px; text-align: center; }
+        nav a { margin: 0 15px; color: #8b5c2a; text-decoration: none; font-weight: bold; }
+        .prodotti { display: flex; flex-wrap: wrap; justify-content: center; margin: 30px 0; }
+        .prodotto { background: #fff; border: 1px solid #e2b07a; border-radius: 8px; margin: 10px; padding: 20px; width: 200px; text-align: center; }
+        .prodotto img { width: 100px; height: 100px; object-fit: cover; }
+        footer { background: #e2b07a; text-align: center; padding: 10px; position: fixed; width: 100%; bottom: 0; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Panetteria del Sorriso</h1>
+        <p>Pane fresco ogni giorno!</p>
+    </header>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Prodotti</a>
+        <a href="#">Contatti</a>
+    </nav>
+    <section class="prodotti">
+        <div class="prodotto">
+            <img src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=200&q=80" alt="Pane">
+            <h2>Pane</h2>
+            <p>€1.50</p>
+        </div>
+        <div class="prodotto">
+            <img src="https://images.unsplash.com/photo-1519864600265-abb23847ef2c?auto=format&fit=crop&w=200&q=80" alt="Pizza">
+            <h2>Pizza</h2>
+            <p>€2.00</p>
+        </div>
+        <div class="prodotto">
+            <img src="https://images.unsplash.com/photo-1464306076886-debca5e8a6b0?auto=format&fit=crop&w=200&q=80" alt="Focaccia">
+            <h2>Focaccia</h2>
+            <p>€2.50</p>
+        </div>
+        <div class="prodotto">
+            <img src="https://images.unsplash.com/photo-1502741338009-cac2772e18bc?auto=format&fit=crop&w=200&q=80" alt="Brioche">
+            <h2>Brioche</h2>
+            <p>€1.20</p>
+        </div>
+    </section>
+    <footer>
+        &copy; 2025 Panetteria del Sorriso - Tutti i diritti riservati
+    </footer>
+</body>
+</html>
